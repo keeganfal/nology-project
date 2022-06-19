@@ -1,0 +1,29 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kosugi+Maru&display=swap');
+
+$font-header: 'Kosugi Maru', sans-serif;
+$font-logo: 'Acme', sans-serif;
+
+$color-darkblue: rgb(38, 38, 100);
+$font-lightblue: rgb(8, 193, 255);
+$color-cream: lightyellow;
+$font-heavycream: rgb(247, 247, 188);
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: $color-cream;
+    border: green solid 2px;
+    font-size: 20px;
+  }
+
+h1 {
+    font-family: 'Kosugi Maru', sans-serif;
+    color: $font-lightblue;
+}
+  

@@ -11,7 +11,7 @@ $font-p: 'Inconsolata', monospace;
 $color-darkblue: rgb(48, 48, 107);
 $color-lightblue: rgb(8, 193, 255);
 $color-cream: rgb(252, 252, 246);
-$font-heavycream: lightyellow;
+$color-heavycream: lightyellow;
 
 * { 
     margin: 0;
@@ -46,7 +46,6 @@ $font-heavycream: lightyellow;
 
 div {
     background-color: $color-cream;
-    border: green solid 2px;
     font-size: 20px;
     padding: 20px;
 
@@ -67,14 +66,21 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     font-family: $font-header2;
     font-weight: 600;
 }
   
 h3 {
+    text-align: center;
     font-family: $font-header2;
     font-weight: 600;
     color: $color-lightblue;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 400;
 }
 
 p {
@@ -85,19 +91,36 @@ p {
     color: $color-cream;
     background-color: $color-darkblue;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 70px;
     font-size: 30px;
     border-radius: 10px;
     border: $color-darkblue solid 2px;
 }
 
-footer {
-    background-color: $font-heavycream;
-    font-size: 26px;
-    font-weight: 600;
-    padding: 5px;
+.footernav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: $color-heavycream;
 }
 
+.footer {
+    width: 33%;
+    display: inline-block;
+    background-color: $color-heavycream;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px 5px;
+    border: red solid 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+    }
+}
 
 a:link,
 a:visited {

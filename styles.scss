@@ -2,22 +2,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kosugi+Maru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@600&family=Kosugi+Maru&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@400;600&family=Kosugi+Maru&display=swap');
 $font-header: 'Kosugi Maru', sans-serif;
 $font-logo: 'Acme', sans-serif;
 $font-header2: 'Inconsolata', monospace;
+$font-p: 'Inconsolata', monospace;
 
 $color-darkblue: rgb(38, 38, 100);
 $font-lightblue: rgb(8, 193, 255);
-$color-cream: lightyellow;
-$font-heavycream: rgb(247, 247, 188);
+$color-cream: rgb(252, 252, 246);
+$font-heavycream: lightyellow;
 
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: $color-darkblue;
+    font-family: $font-header2;
+}
+
+.logo {
+    font-size: 70px;
+}
+
+.login-button {
+    font-size: 30px;
+    border-radius: 3px solid $color-darkblue;
 }
 
 div {
@@ -27,14 +37,29 @@ div {
   }
 
 h1 {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: $font-header;
     color: $font-lightblue;
+    
 }
 
 h2 {
     font-family: $font-header2;
+    font-weight: 600;
 }
   
+h3 {
+    font-family: $font-header2;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+footer {
+    background-color: $font-heavycream;
+}
+
 a:link,
 a:visited {
     text-decoration: none;

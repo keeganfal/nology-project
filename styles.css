@@ -1,15 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Kosugi+Maru&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@600&family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@400;600&family=Kosugi+Maru&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #262664;
+  font-family: "Inconsolata", monospace;
+}
+
+.logo {
+  font-size: 70px;
+}
+
+.login-button {
+  font-size: 30px;
+  border-radius: 3px solid #262664;
 }
 
 div {
-  background-color: lightyellow;
+  background-color: #fcfcf6;
   border: green solid 2px;
   font-size: 20px;
 }
@@ -21,6 +31,20 @@ h1 {
 
 h2 {
   font-family: "Inconsolata", monospace;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+footer {
+  background-color: lightyellow;
 }
 
 a:link,

@@ -8,7 +8,7 @@ $font-logo: 'Acme', sans-serif;
 $font-header2: 'Inconsolata', monospace;
 $font-p: 'Inconsolata', monospace;
 
-$color-darkblue: rgb(38, 38, 100);
+$color-darkblue: rgb(48, 48, 107);
 $color-lightblue: rgb(8, 193, 255);
 $color-cream: rgb(252, 252, 246);
 $font-heavycream: lightyellow;
@@ -82,7 +82,8 @@ p {
 }
 
 .signup-button {
-    
+    color: $color-cream;
+    background-color: $color-darkblue;
     text-align: center;
     padding: 10px 20px;
     font-size: 30px;

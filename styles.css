@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #262664;
+  color: #30306b;
   font-family: "Inconsolata", monospace;
   background-color: #fcfcf6;
 }
@@ -28,7 +28,7 @@
   font-size: 30px;
   background-color: #fcfcf6;
   border-radius: 10px;
-  border: #262664 solid 2px;
+  border: #30306b solid 2px;
 }
 
 div {
@@ -68,11 +68,13 @@ p {
 }
 
 .signup-button {
+  color: #fcfcf6;
+  background-color: #30306b;
   text-align: center;
   padding: 10px 20px;
   font-size: 30px;
   border-radius: 10px;
-  border: #262664 solid 2px;
+  border: #30306b solid 2px;
 }
 
 footer {

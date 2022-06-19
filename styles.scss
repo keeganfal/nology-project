@@ -19,27 +19,50 @@ $font-heavycream: lightyellow;
     box-sizing: border-box;
     color: $color-darkblue;
     font-family: $font-header2;
+    background-color: $color-cream;
 }
+
+.topnav {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .logo {
     font-size: 70px;
 }
 
 .login-button {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
     font-size: 30px;
-    border-radius: 3px solid $color-darkblue;
+    background-color: $color-cream;
+    border-radius: 10px;
+    border: $color-darkblue solid 2px;
 }
 
 div {
     background-color: $color-cream;
     border: green solid 2px;
     font-size: 20px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 h1 {
     font-family: $font-header;
+    font-size: 34px;
     color: $font-lightblue;
-    
+}
+
+.deviceimg {
+    align-items: center;
 }
 
 h2 {
@@ -56,9 +79,23 @@ p {
     font-weight: 400;
 }
 
+.signup-button {
+    
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: $color-cream;
+    border-radius: 10px;
+    border: $color-darkblue solid 2px;
+}
+
 footer {
     background-color: $font-heavycream;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px;
 }
+
 
 a:link,
 a:visited {

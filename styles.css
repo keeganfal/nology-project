@@ -60,6 +60,7 @@ h2 {
 h3 {
   font-family: "Inconsolata", monospace;
   font-weight: 600;
+  color: #08c1ff;
 }
 
 p {
@@ -70,7 +71,6 @@ p {
   text-align: center;
   padding: 10px 20px;
   font-size: 30px;
-  background-color: #fcfcf6;
   border-radius: 10px;
   border: #262664 solid 2px;
 }

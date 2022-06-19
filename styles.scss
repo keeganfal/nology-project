@@ -9,7 +9,7 @@ $font-header2: 'Inconsolata', monospace;
 $font-p: 'Inconsolata', monospace;
 
 $color-darkblue: rgb(38, 38, 100);
-$font-lightblue: rgb(8, 193, 255);
+$color-lightblue: rgb(8, 193, 255);
 $color-cream: rgb(252, 252, 246);
 $font-heavycream: lightyellow;
 
@@ -56,9 +56,10 @@ div {
   }
 
 h1 {
-    text-align: center;    font-family: $font-header;
+    text-align: center;    
+    font-family: $font-header;
     font-size: 34px;
-    color: $font-lightblue;
+    color: $color-lightblue;
 }
 
 .deviceimg {
@@ -73,6 +74,7 @@ h2 {
 h3 {
     font-family: $font-header2;
     font-weight: 600;
+    color: $color-lightblue;
 }
 
 p {
@@ -84,7 +86,6 @@ p {
     text-align: center;
     padding: 10px 20px;
     font-size: 30px;
-    background-color: $color-cream;
     border-radius: 10px;
     border: $color-darkblue solid 2px;
 }
